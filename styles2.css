@@ -1,0 +1,63 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@keyframes change-color {
+  from {
+    background-color: bisque;
+  }
+  to {
+    background-color: lightblue;
+  }
+}
+
+@keyframes change-color2 {
+  0% {
+    background-color: bisque;
+    top: 10px;
+  }
+  12% {
+    top: 15px;
+  }
+  25% {
+    top: 20px;
+  }
+  37% {
+    top: 25px;
+  }
+  50% {
+    background-color: lightblue;
+    top: 30px;
+  }
+  62% {
+    top: 25px;
+  }
+  75% {
+    top: 20px;
+  }
+  87% {
+    top: 15px;
+  }
+  100% {
+    background-color: bisque;
+    top: 10px;
+  }
+}
+
+#mainbox {
+  border: 5px solid black;
+  background-color: bisque;
+  font-style: italic;
+  font-family: 'Courier';
+  font-weight: bold;
+  position: relative;
+  padding: 50px 50px 50px 50px;
+  animation-name: change-color2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}

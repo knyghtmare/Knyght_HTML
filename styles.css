@@ -22,3 +22,27 @@ h1 {
   font-family: 'Courier';
   font-weight: bold;
 }
+
+input:checked {
+  background-color: grey;
+  box-shadow: 2px 2px 2px red;
+}
+
+input:focus {
+  background-color: grey;
+  box-shadow: 2px 2px 2px red;
+}
+
+h2:hover {
+  background-color: gold;
+}
+
+ul > li:first-child {
+  background-color: lightblue;
+}
+
+ul > li:nth-last-child(2)-child {
+  background-color: lightblue;
+}
+
+@import "styles2.css";
