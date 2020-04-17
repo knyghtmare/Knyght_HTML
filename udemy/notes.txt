@@ -1,0 +1,12 @@
+Bootstrap Notes
+
+It is a framework that makes web development much more efficient.
+
+Framework includes: HTML & CSS based design templates for typography,
+forms, buttons, tables, navigation, models, and image carousels.
+
+Additionally, optional JS plugins are included.
+
+Advantages of Bootstrap:
+1. Saves Time.
+2. Less Challenging
