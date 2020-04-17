@@ -10,3 +10,5 @@ Additionally, optional JS plugins are included.
 Advantages of Bootstrap:
 1. Saves Time.
 2. Less Challenging
+3. Responsiveness Features
+4. Cross-browser Compatibility
