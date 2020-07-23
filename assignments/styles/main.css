@@ -1,0 +1,63 @@
+.myNavBar {
+  font-weight: bold;
+  font-family: fantasy;
+  background-color: azure;
+  padding: 1px;
+  border: 2px dashed black;
+}
+
+.myNavBar ul li {
+  display: inline;
+  padding: 1em;
+}
+
+.myNavBar ul li a:hover
+{
+  color: white;
+  background-color: black;
+}
+
+div {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+  color: yellow;
+  background-color: black;
+  padding: 2px;
+}
+
+p {
+  text-align: left;
+  background-color: azure;
+  padding: 2px;
+}
+
+.title_class {
+  color: orange;
+  background-color: darkblue;
+  border: 2px dashed white;
+  padding: 1px;
+}
+
+#span_name {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#span_name2 {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.footer_1 {
+  border: 2px dashed black;
+  color: white;
+  background-color: darkred;
+  font-family: fantasy;
+  padding: 2px;
+  text-align: center;
+}
